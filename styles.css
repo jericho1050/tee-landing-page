@@ -1,0 +1,185 @@
+#header-img {
+    width: 69px;
+    height: 69px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.nav-link {
+    color: #332309
+}
+
+.nav-color {
+    background-color: #C2BFBA;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #C2BFBA !important;
+    color: #33250F !important;
+}
+
+main {
+    padding: 1.5em;
+}
+
+main h1 {
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+    font-size: 2.6em;
+    color: white;
+    /* font-weight: 800;
+     */
+     font-family: 'Lilita One', sans-serif;
+}
+
+.bg-color-wrapper {
+    background-color: #6D5D44;
+    border-radius: 10px;
+    padding: 1em 1.5em;
+    width: 100%;
+    margin: 1.5em 0;
+}
+
+#head-description {
+    font-weight: bold;
+    font-size: normal;
+    display: block;
+    color: white;
+    margin-bottom: 2em;
+}
+
+@media(min-width: 0) {
+    .email-wrapper {
+        display: block;
+    }    
+}
+
+@media(min-width: 1000px) {
+    .email-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    
+    }
+}
+
+
+
+#email {
+    height: 60px !important;
+    margin: 0;
+}
+
+#video {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+
+.form-control-lg {
+    max-width: 800px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.form-control:focus {
+
+    /* background-color: #C2BFBA !important; */
+    border-color: #C2BFBA !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(194, 191, 186, .25) !important;
+}
+
+
+input[type="submit"] {
+    color: #6D5D44 ;
+    background-color: #C2BFBA;
+    box-shadow: unset;
+    border: unset;
+    display: block;
+    padding: 0.5em 1.5em;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+@media(min-width: 0) {
+    input[type="submit"] {
+        margin: 1.5em auto;
+    }
+}
+
+@media(min-width: 1000px) {
+    input[type="submit"] {
+        margin: 1em 0;
+    }
+}
+.image {
+    filter: grayscale(100%) brightness(0) invert(1);
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width: 0) {
+    .success-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 20%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .success-image {
+        width: 300px;
+        height: 300px;
+        border-radius: 20%;
+    } 
+}
+
+.card {
+    border: 2px solid #423217 !important;
+
+}
+
+.card-body {
+
+    padding: 2em 1em 3em 1em !important;
+    background-color: #6D5837;
+    color: white !important;
+    
+}
+
+.card-title {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+.btn-primary {
+    background-color: #C2BFBA !important;
+    border: unset !important;
+    color: #6D5837 !important;
+    font-weight: 800 !important;
+}
+
+/* Ignore this -- for displaying the viewport width */
+.width-container {
+    display: none;
+}
+
+.display-width {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #E6E6E6;
+    padding: .3em;
+    font-size: .85em;
+    z-index: 5;
+}
